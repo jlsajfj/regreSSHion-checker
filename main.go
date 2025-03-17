@@ -86,9 +86,13 @@ func checkVulnerability(ip string, port int, timeout time.Duration, wg *sync.Wai
 		"SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10",
 		"SSH-2.0-OpenSSH_9.3p1 Ubuntu-3ubuntu3.6",
 		"SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.3",
+		"SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4",
+		"SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.5",
+		"SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.8",
 		"SSH-2.0-OpenSSH_9.3p1 Ubuntu-1ubuntu3.6",
 		"SSH-2.0-OpenSSH_9.2p1 Debian-2+deb12u3",
 		"SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3",
+		"SSH-2.0-OpenSSH_9.7p1 Debian-7",
 	}
 
 	isVulnerable := false
