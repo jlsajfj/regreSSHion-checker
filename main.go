@@ -84,6 +84,7 @@ func checkVulnerability(ip string, port int, timeout time.Duration, wg *sync.Wai
 
 	excludedVersions := []string{
 		"SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10",
+		"SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.11",
 		"SSH-2.0-OpenSSH_9.3p1 Ubuntu-3ubuntu3.6",
 		"SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.3",
 		"SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.4",
