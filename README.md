@@ -19,7 +19,7 @@ regreSSHion-checker is a lightweight, efficient tool designed to identify server
 To install regreSSHion-checker from the GitHub repository, ensure you have Go installed and configured properly. Use the following command:
 
 ```bash
-go get github.com/xonoxitron/regreSSHion-checker
+go install github.com/xonoxitron/regreSSHion-checker@latest
 ```
 
 After installation, you can use regreSSHion-checker as described in the usage section below.
